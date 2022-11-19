@@ -217,6 +217,9 @@ files:
         fun setOutputTrim(trimOutput: Boolean) { this.trimOutput = trimOutput}
     }
   learner_created: false
-feedback_link: https://hyperskill.org/projects/290/stages/1513/implement#comment
-status: Unchecked
-record: -1
+feedback_link: https://hyperskill.org/learn/step/22747#comment
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sat, 19 Nov 2022 13:11:32 UTC"
+record: 3

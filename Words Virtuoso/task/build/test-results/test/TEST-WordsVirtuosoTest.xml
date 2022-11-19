@@ -1,28 +1,247 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="WordsVirtuosoTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-11-19T05:13:24" hostname="DESKTOP-JA25RKB" time="0.812">
+<testsuite name="WordsVirtuosoTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-11-19T20:34:45" hostname="DESKTOP-JA25RKB" time="4.148">
   <properties/>
-  <testcase name="start" classname="WordsVirtuosoTest" time="0.812"/>
+  <testcase name="start" classname="WordsVirtuosoTest" time="4.148"/>
   <system-out><![CDATA[?[1;31m
 Start test 1?[0m
-Input the words file:
-> noexist.txt
-Error: The words file noexist.txt doesn't exist.
+Error: Wrong number of arguments.
+Error: Wrong number of arguments.
+Error: Wrong number of arguments.
 ?[1;31m
 Start test 2?[0m
-Input the words file:
-> words.txt
-All words are valid!
+Error: The words file noexist.txt doesn't exist.
+Error: The candidate words file noexist.txt doesn't exist.
 ?[1;31m
 Start test 3?[0m
-Input the words file:
-> invalidwords1.txt
-Warning: 3 invalid words were found in the invalidwords1.txt file.
-Input the words file:
-> invalidwords2.txt
-Warning: 2 invalid words were found in the invalidwords2.txt file.
-Input the words file:
-> invalidwords3.txt
-Warning: 5 invalid words were found in the invalidwords3.txt file.
+Error: 7 invalid words were found in the wrongwords.txt file.
+?[1;31m
+Start test 4?[0m
+Error: 9 invalid words were found in the wrongcandidates.txt file.
+?[1;31m
+Start test 5?[0m
+Error: 3 candidate words are not included in the somewords.txt file.
+?[1;31m
+Start test 6?[0m
+Words Virtuoso
+
+Input a 5-letter word:
+?[1;31m
+Start test 7?[0m
+Words Virtuoso
+
+Input a 5-letter word:
+> trains
+The input isn't a 5-letter word.
+Input a 5-letter word:
+> One
+The input isn't a 5-letter word.
+Input a 5-letter word:
+> Four
+The input isn't a 5-letter word.
+Input a 5-letter word:
+> Two Words
+The input isn't a 5-letter word.
+Input a 5-letter word:
+> trouvée
+The input isn't a 5-letter word.
+Input a 5-letter word:
+> ΗΛΙΟΣ
+One or more letters of the input aren't valid.
+Input a 5-letter word:
+> étage
+One or more letters of the input aren't valid.
+Input a 5-letter word:
+> word1
+One or more letters of the input aren't valid.
+Input a 5-letter word:
+> 12345
+One or more letters of the input aren't valid.
+Input a 5-letter word:
+> walls
+The input has duplicated letters.
+Input a 5-letter word:
+> hello
+The input has duplicated letters.
+Input a 5-letter word:
+> pizza
+The input has duplicated letters.
+Input a 5-letter word:
+> exit
+The game is over.
+?[1;31m
+Start test 8?[0m
+Words Virtuoso
+
+Input a 5-letter word:
+> abcde
+The input word isn't included in my words list.
+Input a 5-letter word:
+> KLMNO
+The input word isn't included in my words list.
+Input a 5-letter word:
+> qwert
+The input word isn't included in my words list.
+Input a 5-letter word:
+> AsDfG
+The input word isn't included in my words list.
+Input a 5-letter word:
+> exit
+The game is over.
+?[1;31m
+Start test 9?[0m
+Words Virtuoso
+
+Input a 5-letter word:
+> azure
+Correct!
+?[1;31m
+Start test 10?[0m
+Words Virtuoso
+
+Input a 5-letter word:
+> cover
+CO___
+Input a 5-letter word:
+> guild
+_u_LD
+Input a 5-letter word:
+> could
+Correct!
+?[1;31m
+Start test 11?[0m
+Words Virtuoso
+
+Input a 5-letter word:
+> mouse
+M_us_
+Input a 5-letter word:
+> poker
+_____
+Input a 5-letter word:
+> tulip
+_U_I_
+Input a 5-letter word:
+> music
+Correct!
+?[1;31m
+Start test 12?[0m
+Words Virtuoso
+
+Input a 5-letter word:
+> cover
+_____
+Input a 5-letter word:
+> guild
+Correct!
+Words Virtuoso
+
+Input a 5-letter word:
+> cover
+CO___
+Input a 5-letter word:
+> guild
+_u_LD
+Input a 5-letter word:
+> could
+Correct!
+Words Virtuoso
+
+Input a 5-letter word:
+> cover
+CO___
+Input a 5-letter word:
+> guild
+_u_LD
+Input a 5-letter word:
+> could
+Correct!
+Words Virtuoso
+
+Input a 5-letter word:
+> cover
+CO___
+Input a 5-letter word:
+> guild
+_u_LD
+Input a 5-letter word:
+> could
+Correct!
+Words Virtuoso
+
+Input a 5-letter word:
+> cover
+_____
+Input a 5-letter word:
+> guild
+Correct!
+Words Virtuoso
+
+Input a 5-letter word:
+> cover
+Correct!
+Words Virtuoso
+
+Input a 5-letter word:
+> cover
+_____
+Input a 5-letter word:
+> guild
+Correct!
+Words Virtuoso
+
+Input a 5-letter word:
+> cover
+Correct!
+Words Virtuoso
+
+Input a 5-letter word:
+> cover
+Correct!
+Words Virtuoso
+
+Input a 5-letter word:
+> cover
+Correct!
+Words Virtuoso
+
+Input a 5-letter word:
+> cover
+_____
+Input a 5-letter word:
+> guild
+Correct!
+Words Virtuoso
+
+Input a 5-letter word:
+> cover
+Correct!
+Words Virtuoso
+
+Input a 5-letter word:
+> cover
+CO___
+Input a 5-letter word:
+> guild
+_u_LD
+Input a 5-letter word:
+> could
+Correct!
+Words Virtuoso
+
+Input a 5-letter word:
+> cover
+Correct!
+Words Virtuoso
+
+Input a 5-letter word:
+> cover
+CO___
+Input a 5-letter word:
+> guild
+_u_LD
+Input a 5-letter word:
+> could
+Correct!
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

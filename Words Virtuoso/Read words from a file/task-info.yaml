@@ -174,7 +174,7 @@ files:
         fun setOutputTrim(trimOutput: Boolean) { this.trimOutput = trimOutput}
     }
   learner_created: false
-feedback_link: https://hyperskill.org/projects/290/stages/1512/implement#comment
+feedback_link: https://hyperskill.org/learn/step/22746#comment
 status: Solved
 feedback:
   message: Congratulations!
