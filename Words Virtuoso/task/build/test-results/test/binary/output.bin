@@ -1,0 +1,21 @@
+[1;31m
+Start test 1[0m
+Input the words file:
+> noexist.txt
+2Error: The words file noexist.txt doesn't exist.
+[1;31m
+Start test 2[0m
+Input the words file:
+> words.txt
+All words are valid!
+[1;31m
+Start test 3[0m
+Input the words file:
+> invalidwords1.txt
+DWarning: 3 invalid words were found in the invalidwords1.txt file.
+Input the words file:
+> invalidwords2.txt
+DWarning: 2 invalid words were found in the invalidwords2.txt file.
+Input the words file:
+> invalidwords3.txt
+DWarning: 5 invalid words were found in the invalidwords3.txt file.

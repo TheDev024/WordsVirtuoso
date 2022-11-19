@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="WordsVirtuosoTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-11-19T05:13:24" hostname="DESKTOP-JA25RKB" time="0.812">
+  <properties/>
+  <testcase name="start" classname="WordsVirtuosoTest" time="0.812"/>
+  <system-out><![CDATA[?[1;31m
+Start test 1?[0m
+Input the words file:
+> noexist.txt
+Error: The words file noexist.txt doesn't exist.
+?[1;31m
+Start test 2?[0m
+Input the words file:
+> words.txt
+All words are valid!
+?[1;31m
+Start test 3?[0m
+Input the words file:
+> invalidwords1.txt
+Warning: 3 invalid words were found in the invalidwords1.txt file.
+Input the words file:
+> invalidwords2.txt
+Warning: 2 invalid words were found in the invalidwords2.txt file.
+Input the words file:
+> invalidwords3.txt
+Warning: 5 invalid words were found in the invalidwords3.txt file.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
