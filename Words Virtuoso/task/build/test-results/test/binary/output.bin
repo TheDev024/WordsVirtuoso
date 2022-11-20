@@ -89,7 +89,9 @@
 
 Input a 5-letter word:
 > azure
-AZURE
+L[48:5:10mA[0m[48:5:10mZ[0m[48:5:10mU[0m[48:5:10mR[0m[48:5:10mE[0m
+
+
 
 	Correct!
 /Amazing luck! The solution was found at once.
@@ -99,19 +101,22 @@
 
 Input a 5-letter word:
 > cover
-CO___
-ERV
+I[48:5:10mC[0m[48:5:10mO[0m[48:5:7mV[0m[48:5:7mE[0m[48:5:7mR[0m
+
+[48:5:14mERV[0m
 Input a 5-letter word:
 > guild
-CO___
-_u_LD
-EGIRV
+I[48:5:10mC[0m[48:5:10mO[0m[48:5:7mV[0m[48:5:7mE[0m[48:5:7mR[0m
+J[48:5:7mG[0m[48:5:11mU[0m[48:5:7mI[0m[48:5:10mL[0m[48:5:10mD[0m
+
+[48:5:14mEGIRV[0m
 Input a 5-letter word:
 > could
-CO___
-_u_LD
+I[48:5:10mC[0m[48:5:10mO[0m[48:5:7mV[0m[48:5:7mE[0m[48:5:7mR[0m
+J[48:5:7mG[0m[48:5:11mU[0m[48:5:7mI[0m[48:5:10mL[0m[48:5:10mD[0m
+L[48:5:10mC[0m[48:5:10mO[0m[48:5:10mU[0m[48:5:10mL[0m[48:5:10mD[0m
 
-COULD
+
 
 	Correct!
 4The solution was found after 3 tries in 0 seconds.
@@ -121,26 +126,30 @@
 
 Input a 5-letter word:
 > mouse
-M_us_
-EO
+J[48:5:10mM[0m[48:5:7mO[0m[48:5:11mU[0m[48:5:11mS[0m[48:5:7mE[0m
+
+[48:5:14mEO[0m
 Input a 5-letter word:
 > poker
-M_us_
-_____
-EKOPR
+J[48:5:10mM[0m[48:5:7mO[0m[48:5:11mU[0m[48:5:11mS[0m[48:5:7mE[0m
+G[48:5:7mP[0m[48:5:7mO[0m[48:5:7mK[0m[48:5:7mE[0m[48:5:7mR[0m
+
+[48:5:14mEKOPR[0m
 Input a 5-letter word:
 > tulip
-M_us_
-_____
-_U_I_
-	EKLOPRT
+J[48:5:10mM[0m[48:5:7mO[0m[48:5:11mU[0m[48:5:11mS[0m[48:5:7mE[0m
+G[48:5:7mP[0m[48:5:7mO[0m[48:5:7mK[0m[48:5:7mE[0m[48:5:7mR[0m
+I[48:5:7mT[0m[48:5:10mU[0m[48:5:7mL[0m[48:5:10mI[0m[48:5:7mP[0m
+
+[48:5:14mEKLOPRT[0m
 Input a 5-letter word:
 > music
-M_us_
-_____
-_U_I_
+J[48:5:10mM[0m[48:5:7mO[0m[48:5:11mU[0m[48:5:11mS[0m[48:5:7mE[0m
+G[48:5:7mP[0m[48:5:7mO[0m[48:5:7mK[0m[48:5:7mE[0m[48:5:7mR[0m
+I[48:5:7mT[0m[48:5:10mU[0m[48:5:7mL[0m[48:5:10mI[0m[48:5:7mP[0m
+L[48:5:10mM[0m[48:5:10mU[0m[48:5:10mS[0m[48:5:10mI[0m[48:5:10mC[0m
 
-MUSIC
+
 
 	Correct!
 4The solution was found after 4 tries in 0 seconds.
@@ -150,49 +159,15 @@
 
 Input a 5-letter word:
 > cover
-CO___
-ERV
+G[48:5:7mC[0m[48:5:7mO[0m[48:5:7mV[0m[48:5:7mE[0m[48:5:7mR[0m
+
+[48:5:14mCEORV[0m
 Input a 5-letter word:
 > guild
-CO___
-_u_LD
-EGIRV
-Input a 5-letter word:
-> could
-CO___
-_u_LD
+G[48:5:7mC[0m[48:5:7mO[0m[48:5:7mV[0m[48:5:7mE[0m[48:5:7mR[0m
+L[48:5:10mG[0m[48:5:10mU[0m[48:5:10mI[0m[48:5:10mL[0m[48:5:10mD[0m
 
-COULD
 
-	Correct!
-4The solution was found after 3 tries in 0 seconds.
-Words Virtuoso
-
-Input a 5-letter word:
-> cover
-COVER
-
-	Correct!
-/Amazing luck! The solution was found at once.
-Words Virtuoso
-
-Input a 5-letter word:
-> cover
-COVER
-
-	Correct!
-/Amazing luck! The solution was found at once.
-Words Virtuoso
-
-Input a 5-letter word:
-> cover
-_____
-CEORV
-Input a 5-letter word:
-> guild
-_____
-
-GUILD
 
 	Correct!
 4The solution was found after 2 tries in 0 seconds.
@@ -200,61 +175,9 @@
 
 Input a 5-letter word:
 > cover
-_____
-CEORV
-Input a 5-letter word:
-> guild
-_____
+L[48:5:10mC[0m[48:5:10mO[0m[48:5:10mV[0m[48:5:10mE[0m[48:5:10mR[0m
 
-GUILD
 
-	Correct!
-4The solution was found after 2 tries in 0 seconds.
-Words Virtuoso
-
-Input a 5-letter word:
-> cover
-CO___
-ERV
-Input a 5-letter word:
-> guild
-CO___
-_u_LD
-EGIRV
-Input a 5-letter word:
-> could
-CO___
-_u_LD
-
-COULD
-
-	Correct!
-4The solution was found after 3 tries in 0 seconds.
-Words Virtuoso
-
-Input a 5-letter word:
-> cover
-CO___
-ERV
-Input a 5-letter word:
-> guild
-CO___
-_u_LD
-EGIRV
-Input a 5-letter word:
-> could
-CO___
-_u_LD
-
-COULD
-
-	Correct!
-4The solution was found after 3 tries in 0 seconds.
-Words Virtuoso
-
-Input a 5-letter word:
-> cover
-COVER
 
 	Correct!
 /Amazing luck! The solution was found at once.
@@ -262,27 +185,38 @@
 
 Input a 5-letter word:
 > cover
-COVER
+G[48:5:7mC[0m[48:5:7mO[0m[48:5:7mV[0m[48:5:7mE[0m[48:5:7mR[0m
+
+[48:5:14mCEORV[0m
+Input a 5-letter word:
+> guild
+G[48:5:7mC[0m[48:5:7mO[0m[48:5:7mV[0m[48:5:7mE[0m[48:5:7mR[0m
+L[48:5:10mG[0m[48:5:10mU[0m[48:5:10mI[0m[48:5:10mL[0m[48:5:10mD[0m
+
+
 
 	Correct!
-/Amazing luck! The solution was found at once.
+4The solution was found after 2 tries in 0 seconds.
 Words Virtuoso
 
 Input a 5-letter word:
 > cover
-CO___
-ERV
+I[48:5:10mC[0m[48:5:10mO[0m[48:5:7mV[0m[48:5:7mE[0m[48:5:7mR[0m
+
+[48:5:14mERV[0m
 Input a 5-letter word:
 > guild
-CO___
-_u_LD
-EGIRV
+I[48:5:10mC[0m[48:5:10mO[0m[48:5:7mV[0m[48:5:7mE[0m[48:5:7mR[0m
+J[48:5:7mG[0m[48:5:11mU[0m[48:5:7mI[0m[48:5:10mL[0m[48:5:10mD[0m
+
+[48:5:14mEGIRV[0m
 Input a 5-letter word:
 > could
-CO___
-_u_LD
+I[48:5:10mC[0m[48:5:10mO[0m[48:5:7mV[0m[48:5:7mE[0m[48:5:7mR[0m
+J[48:5:7mG[0m[48:5:11mU[0m[48:5:7mI[0m[48:5:10mL[0m[48:5:10mD[0m
+L[48:5:10mC[0m[48:5:10mO[0m[48:5:10mU[0m[48:5:10mL[0m[48:5:10mD[0m
 
-COULD
+
 
 	Correct!
 4The solution was found after 3 tries in 0 seconds.
@@ -290,7 +224,25 @@
 
 Input a 5-letter word:
 > cover
-COVER
+G[48:5:7mC[0m[48:5:7mO[0m[48:5:7mV[0m[48:5:7mE[0m[48:5:7mR[0m
+
+[48:5:14mCEORV[0m
+Input a 5-letter word:
+> guild
+G[48:5:7mC[0m[48:5:7mO[0m[48:5:7mV[0m[48:5:7mE[0m[48:5:7mR[0m
+L[48:5:10mG[0m[48:5:10mU[0m[48:5:10mI[0m[48:5:10mL[0m[48:5:10mD[0m
+
+
+
+	Correct!
+4The solution was found after 2 tries in 0 seconds.
+Words Virtuoso
+
+Input a 5-letter word:
+> cover
+L[48:5:10mC[0m[48:5:10mO[0m[48:5:10mV[0m[48:5:10mE[0m[48:5:10mR[0m
+
+
 
 	Correct!
 /Amazing luck! The solution was found at once.
@@ -298,61 +250,139 @@
 
 Input a 5-letter word:
 > cover
-_____
-CEORV
+I[48:5:10mC[0m[48:5:10mO[0m[48:5:7mV[0m[48:5:7mE[0m[48:5:7mR[0m
+
+[48:5:14mERV[0m
 Input a 5-letter word:
 > guild
-_____
+I[48:5:10mC[0m[48:5:10mO[0m[48:5:7mV[0m[48:5:7mE[0m[48:5:7mR[0m
+J[48:5:7mG[0m[48:5:11mU[0m[48:5:7mI[0m[48:5:10mL[0m[48:5:10mD[0m
 
-GUILD
-
-	Correct!
-4The solution was found after 2 tries in 0 seconds.
-Words Virtuoso
-
-Input a 5-letter word:
-> cover
-_____
-CEORV
-Input a 5-letter word:
-> guild
-_____
-
-GUILD
-
-	Correct!
-4The solution was found after 2 tries in 0 seconds.
-Words Virtuoso
-
-Input a 5-letter word:
-> cover
-_____
-CEORV
-Input a 5-letter word:
-> guild
-_____
-
-GUILD
-
-	Correct!
-4The solution was found after 2 tries in 0 seconds.
-Words Virtuoso
-
-Input a 5-letter word:
-> cover
-CO___
-ERV
-Input a 5-letter word:
-> guild
-CO___
-_u_LD
-EGIRV
+[48:5:14mEGIRV[0m
 Input a 5-letter word:
 > could
-CO___
-_u_LD
+I[48:5:10mC[0m[48:5:10mO[0m[48:5:7mV[0m[48:5:7mE[0m[48:5:7mR[0m
+J[48:5:7mG[0m[48:5:11mU[0m[48:5:7mI[0m[48:5:10mL[0m[48:5:10mD[0m
+L[48:5:10mC[0m[48:5:10mO[0m[48:5:10mU[0m[48:5:10mL[0m[48:5:10mD[0m
 
-COULD
+
 
 	Correct!
 4The solution was found after 3 tries in 0 seconds.
+Words Virtuoso
+
+Input a 5-letter word:
+> cover
+G[48:5:7mC[0m[48:5:7mO[0m[48:5:7mV[0m[48:5:7mE[0m[48:5:7mR[0m
+
+[48:5:14mCEORV[0m
+Input a 5-letter word:
+> guild
+G[48:5:7mC[0m[48:5:7mO[0m[48:5:7mV[0m[48:5:7mE[0m[48:5:7mR[0m
+L[48:5:10mG[0m[48:5:10mU[0m[48:5:10mI[0m[48:5:10mL[0m[48:5:10mD[0m
+
+
+
+	Correct!
+4The solution was found after 2 tries in 0 seconds.
+Words Virtuoso
+
+Input a 5-letter word:
+> cover
+G[48:5:7mC[0m[48:5:7mO[0m[48:5:7mV[0m[48:5:7mE[0m[48:5:7mR[0m
+
+[48:5:14mCEORV[0m
+Input a 5-letter word:
+> guild
+G[48:5:7mC[0m[48:5:7mO[0m[48:5:7mV[0m[48:5:7mE[0m[48:5:7mR[0m
+L[48:5:10mG[0m[48:5:10mU[0m[48:5:10mI[0m[48:5:10mL[0m[48:5:10mD[0m
+
+
+
+	Correct!
+4The solution was found after 2 tries in 0 seconds.
+Words Virtuoso
+
+Input a 5-letter word:
+> cover
+L[48:5:10mC[0m[48:5:10mO[0m[48:5:10mV[0m[48:5:10mE[0m[48:5:10mR[0m
+
+
+
+	Correct!
+/Amazing luck! The solution was found at once.
+Words Virtuoso
+
+Input a 5-letter word:
+> cover
+G[48:5:7mC[0m[48:5:7mO[0m[48:5:7mV[0m[48:5:7mE[0m[48:5:7mR[0m
+
+[48:5:14mCEORV[0m
+Input a 5-letter word:
+> guild
+G[48:5:7mC[0m[48:5:7mO[0m[48:5:7mV[0m[48:5:7mE[0m[48:5:7mR[0m
+L[48:5:10mG[0m[48:5:10mU[0m[48:5:10mI[0m[48:5:10mL[0m[48:5:10mD[0m
+
+
+
+	Correct!
+4The solution was found after 2 tries in 0 seconds.
+Words Virtuoso
+
+Input a 5-letter word:
+> cover
+L[48:5:10mC[0m[48:5:10mO[0m[48:5:10mV[0m[48:5:10mE[0m[48:5:10mR[0m
+
+
+
+	Correct!
+/Amazing luck! The solution was found at once.
+Words Virtuoso
+
+Input a 5-letter word:
+> cover
+L[48:5:10mC[0m[48:5:10mO[0m[48:5:10mV[0m[48:5:10mE[0m[48:5:10mR[0m
+
+
+
+	Correct!
+/Amazing luck! The solution was found at once.
+Words Virtuoso
+
+Input a 5-letter word:
+> cover
+I[48:5:10mC[0m[48:5:10mO[0m[48:5:7mV[0m[48:5:7mE[0m[48:5:7mR[0m
+
+[48:5:14mERV[0m
+Input a 5-letter word:
+> guild
+I[48:5:10mC[0m[48:5:10mO[0m[48:5:7mV[0m[48:5:7mE[0m[48:5:7mR[0m
+J[48:5:7mG[0m[48:5:11mU[0m[48:5:7mI[0m[48:5:10mL[0m[48:5:10mD[0m
+
+[48:5:14mEGIRV[0m
+Input a 5-letter word:
+> could
+I[48:5:10mC[0m[48:5:10mO[0m[48:5:7mV[0m[48:5:7mE[0m[48:5:7mR[0m
+J[48:5:7mG[0m[48:5:11mU[0m[48:5:7mI[0m[48:5:10mL[0m[48:5:10mD[0m
+L[48:5:10mC[0m[48:5:10mO[0m[48:5:10mU[0m[48:5:10mL[0m[48:5:10mD[0m
+
+
+
+	Correct!
+4The solution was found after 3 tries in 0 seconds.
+Words Virtuoso
+
+Input a 5-letter word:
+> cover
+G[48:5:7mC[0m[48:5:7mO[0m[48:5:7mV[0m[48:5:7mE[0m[48:5:7mR[0m
+
+[48:5:14mCEORV[0m
+Input a 5-letter word:
+> guild
+G[48:5:7mC[0m[48:5:7mO[0m[48:5:7mV[0m[48:5:7mE[0m[48:5:7mR[0m
+L[48:5:10mG[0m[48:5:10mU[0m[48:5:10mI[0m[48:5:10mL[0m[48:5:10mD[0m
+
+
+
+	Correct!
+4The solution was found after 2 tries in 0 seconds.

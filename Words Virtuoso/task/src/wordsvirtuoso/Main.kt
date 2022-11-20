@@ -7,6 +7,13 @@ import kotlin.properties.Delegates
 
 val scanner = Scanner(System.`in`)
 val generator = Random()
+const val ESC = '\u001b'
+const val BACK_COLOR_START = "$ESC[48:5:"
+const val BACK_COLOR_END = "$ESC[0m"
+const val GREEN = "10m"
+const val YELLOW = "11m"
+const val GREY = "7m"
+const val AZURE = "14m"
 
 class WordsVirtuoso {
     fun cmd(args: Array<String>) = if (args.size != 2) println("Error: Wrong number of arguments.") else {
@@ -37,20 +44,10 @@ class WordsVirtuoso {
                             game@ while (true) {
                                 val word = getWord()
                                 if (tries == 0) startTime = currentTimeMillis()
+                                tries++
                                 if (word != null) {
                                     if (word == "exit") {
                                         println("The game is over.")
-                                        break@game
-                                    }
-                                    tries++
-                                    if (word == secretWord) {
-                                        if (tries == 1) println("${secretWord.uppercase()}\n\nCorrect!\nAmazing luck! The solution was found at once.")
-                                        else {
-                                            val duration =
-                                                ((currentTimeMillis() - startTime).toDouble() / 1000.0).toLong()
-                                            println(output)
-                                            println("${secretWord.uppercase()}\n\nCorrect!\nThe solution was found after $tries tries in $duration seconds.")
-                                        }
                                         break@game
                                     }
                                     if (!allWords.contains(word)) {
@@ -58,18 +55,32 @@ class WordsVirtuoso {
                                         continue@game
                                     }
                                     word.forEach {
-                                        output += if (secretWord.contains(it)) {
+                                        output += BACK_COLOR_START + if (secretWord.contains(it)) {
                                             if (secretWord.indexOf(it) == word.indexOf(it)) {
-                                                it.uppercase()
-                                            } else it.lowercase()
+                                                GREEN
+                                            } else YELLOW
                                         } else {
                                             wrongChars = wrongChars.plus(it.uppercaseChar())
-                                            '_'
-                                        }
+                                            GREY
+                                        } + it.uppercase() + BACK_COLOR_END
                                     }
-                                    println(output)
-                                    println(wrongChars.sorted().joinToString(""))
+                                    println(output + '\n')
                                     output += '\n'
+                                    if (word == secretWord) {
+                                        if (tries == 1) println(
+                                            "\n\nCorrect!\nAmazing luck! The solution was found at once."
+                                        )
+                                        else {
+                                            val duration =
+                                                ((currentTimeMillis() - startTime).toDouble() / 1000.0).toLong()
+                                            println(
+                                                "\n\nCorrect!\nThe solution was found after $tries tries in $duration seconds."
+                                            )
+                                        }
+                                        break@game
+                                    }
+                                    println(BACK_COLOR_START + AZURE + wrongChars.sorted()
+                                        .joinToString("") + BACK_COLOR_END )
                                 }
                             }
                         } else println("Error: $notContained candidate words are not included in the $allWordsPath file.")

@@ -1,4 +1,3 @@
-abcde
 abort
 about
 above
@@ -69,7 +68,6 @@ basic
 basil
 basin
 batch
-bcdef
 beach
 beady
 beard
